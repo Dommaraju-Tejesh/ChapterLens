@@ -1,0 +1,7 @@
+:root { font-family: "DM Sans", system-ui, sans-serif; color: #f1f0e9; background: #10110f; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --background:#10110f; --surface:#171815; --border:#30312a; --muted:#92938a; --lime:#d3fa78; --mono:"DM Mono",monospace; --heading:"Space Grotesk",sans-serif; color-scheme:dark; }
+* { box-sizing:border-box; }
+html,body,#root { margin:0; min-width:320px; min-height:100%; }
+body { min-height:100vh; }
+button,textarea { font:inherit; }
+button:focus-visible,textarea:focus-visible,a:focus-visible { outline:2px solid var(--lime); outline-offset:4px; }
+::selection { color:#10110f; background:var(--lime); }
